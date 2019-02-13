@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <title>Master Page</title>
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+    <link rel="shorcut icon" type="icon/x-icon" href="images/logo.png" />
+
+</head>
+<body>
+
+    <form id="form1" runat="server">  
+
+        <div class="content">
+
+            <!--Header-->
+            <header>
+                <!--Logo-->
+                <a href="Default.aspx"><div id="logo"></div></a>
+
+                <!--Navigation Bar-->
+                <div class="nav">
+                    <ul>
+                        <li><a href="Default.aspx">HOME</a></li>
+                        <li><a href="About.aspx">ABOUT</a></li>
+                        <li><a href="Resume.aspx">RESUME</a></li>
+                        <li><a href="Assignments.aspx">ASSIGNMENTS</a></li>
+                        <li><a href="Login.aspx">LOGIN</a></li>
+                        <li><a href="Register.aspx">REGISTER</a></li>
+                    </ul>
+                </div>   
+            </header>
+
+            <!--footer-->
+            <footer>
+                <p>©2017 Joshua Vines</p>
+            </footer>
+
+        </div>
+         
+        <!--WTF-->
+        <div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+
+</body>
+</html>

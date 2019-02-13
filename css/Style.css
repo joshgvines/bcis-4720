@@ -1,0 +1,267 @@
+﻿/***************************************************************************/
+/*                              basic                                      */
+/***************************************************************************/
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 25px;
+    font-family: 'Felix Titling';
+    color: lightgrey;
+}
+p {
+    margin:30px;
+    font-family: Tahoma;
+    font-size: 14pt;
+    color: lightgrey;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+a {
+    color: dodgerblue;
+    font-family: Arial;
+}
+/***************************************************************************/
+/*                              center                                     */
+/***************************************************************************/
+.centerP p {
+    text-align: center;
+}
+.centerH1 h1 {
+    text-align: center;
+    color: white;
+    font-family: Vivaldi;
+    font-size: 35pt;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px black, 0 0 5px black;
+}
+/***************************************************************************/
+/*                              center classes                             */
+/***************************************************************************/
+.login {
+    text-align: center;
+    position: center;
+}
+    .login div {
+        text-align: center;
+        position: center;
+    }
+    .login input {
+        text-align: center;
+        position: center;
+        width: 205px;
+        
+        font-size: 14pt;
+        margin: 10px;
+    }
+    .login button{
+        text-align: center;
+        position: center;
+        width: 100px;
+        
+        margin: 2px;
+        margin-bottom: 20px;
+        font-size: 12pt;
+    }
+        .login button:hover {
+            font-size: 14pt;
+        }
+/***************************************************************************/
+/*                              content                                    */
+/***************************************************************************/
+.content {
+}
+.content header {
+    position: center;
+    text-align: center;
+}
+.content footer {
+    position: center;
+    text-align: center;
+}
+.content div {
+    position: center;
+}
+/***************************************************************************/
+/*                              objects                                    */
+/***************************************************************************/
+.pdf object { /* On Top Of*/
+    height: 700px;
+    width: 50%;
+    z-index: 5;
+    background: black;
+    margin-left: 25%;
+    margin-top: 8%;
+    position: absolute;
+}
+/***************************************************************************/
+/*                              images                                     */
+/***************************************************************************/
+#logo {
+    background: url("../images/logo.png") no-repeat top left;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
+.centerImg p {
+    text-align: center;
+    position: center;
+    z-index: 5;
+}
+.centerImg p img {
+    text-align: center;
+    position: center;
+    z-index: 5;
+}
+/***************************************************************************/
+/*                              .nav                                       */
+/***************************************************************************/
+.nav {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    overflow: hidden;
+    z-index: 9;
+    border: 1px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+}
+    .nav li {
+        vertical-align: middle;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .nav a {
+        text-decoration: none;
+        vertical-align: middle;
+        display: inline-block;
+        color: grey;
+        font-size: 21px;
+        padding: 20px;
+        margin: 2px;
+        font-family: 'Felix Titling';
+        overflow: hidden;
+    }
+        .nav a:hover {
+            background-color: none;
+            font-size: 22px;
+            color: white;
+            overflow: hidden;
+        }
+/***************************************************************************/
+/*                              footer                                     */
+/***************************************************************************/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    background-color: black;
+    text-align: center
+}
+footer p {
+    color: lightgrey;
+    margin: 5px;
+    font-family: Arial;
+    text-align: center;
+    position: center;
+}
+/***************************************************************************/
+/*                              .sections                                  */
+/***************************************************************************/
+.secL {
+    height: 850px;
+    width: auto;
+    overflow: hidden;
+}
+.secM {
+    height: 650px;
+    width: auto;
+    overflow: hidden;
+}
+.secS {
+    height: 450px;
+    width: auto;
+    overflow: hidden;
+}
+.secES {
+    height: 65px;
+    width: auto;
+    overflow: hidden;
+}
+.secFit {
+    height: 100%;
+    width: auto;
+    border: 1px;
+    border-right: 2px;
+    overflow: hidden;
+}
+.subSecL {
+    height: 905px;
+    width: auto;
+    background-color: black;
+    opacity: 0.8;
+    border: 1px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    overflow: hidden;
+}
+.subSecM {
+    height: 650px;
+    width: auto;
+    background-color: black;
+    opacity: 0.8;
+    border: 1px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    overflow: hidden;
+}
+.subSecS {
+    height: 450px;
+    width: auto;
+    background-color: black;
+    opacity: 0.8;
+    border: 1px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    overflow: hidden;
+}
+.subSecFit {
+    height: 100%;
+    width: auto;
+    background-color: black;
+    opacity: 0.8;
+    border: 1px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    overflow: hidden;
+}
+.subSecFitLog {
+    height: 100%;
+    width: auto;
+    background-color: black;
+    opacity: 0.8;
+    border: 1px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    overflow: hidden;
+}
+   
