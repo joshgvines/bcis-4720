@@ -6,15 +6,15 @@
 
     <!--nav spacer-->
     <div class="secES"></div>
-    
+
     <!--Bio-->
     <div class="subSecL">
         <h1>About Me</h1>
         <p>&nbsp &nbsp &nbsp &nbsp &nbsp
-            I am a Buisness Computer Information Systems student at the Univeristy of North Texas. 
+            I am a Business Computer Information Systems student at the University of North Texas.
             Currently I tutor and grade for the ITDS department at UNT.
-            I plan to graduate in December of 2018, and would like to find a rewarding job in IT. 
-            For hobbies, I enjoy building and repairing custom PC's for myself, freinds and family along with occasional gaming on my free time.
+            I plan to graduate in December of 2018, and would like to find a rewarding job in IT.
+            For hobbies, I enjoy building and repairing PC's for myself, friends and family along with occasional gaming on my free time.
         </p>
 
         <!--Bio Image-->
@@ -26,4 +26,3 @@
     <div class="secS"></div>
 
 </asp:Content>
-
